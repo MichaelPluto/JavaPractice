@@ -1,8 +1,8 @@
 public class DoWhileExercise01{
 	public static void main(String[] args) {
-	//Í³¼Æ1-200Ö®¼äÄÜ±»ÎåÕû³ıµ«²»ÄÜ±»3Õû³ıµÄ¸öÊı
+	//ç»Ÿè®¡1-200ä¹‹é—´èƒ½è¢«äº”æ•´é™¤ä½†ä¸èƒ½è¢«3æ•´é™¤çš„ä¸ªæ•°
 		int i = 1;
-		int count = 0;
+		int count = 0;//ç»Ÿè®¡æ»¡è¶³æ¡ä»¶ä¸ªæ•°
 		int j = 5;
 		int k = 3;
 		int end = 200;
@@ -13,7 +13,7 @@ public class DoWhileExercise01{
 		 }
 			i++;
 		}while(i <= end);
+		
 		System.out.println("count=" + count);
-	 	
 	}
 }
