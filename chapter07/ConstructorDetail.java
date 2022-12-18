@@ -1,11 +1,22 @@
 public class ConstructorDetail{
 	public static void main(String[] args){
-	Person t1 = new Person("jack", 99);//µÚÒ»¸ö¹¹ÔìÆ÷
-	Person t2 = new Person("Tom");//µÚ¶ş¸ö¹¹ÔìÆ÷
-	System.out.println("µÚÒ»¸ö¹¹ÔìÆ÷Êä³ö" + t1.name + " " + t1.age);
-	System.out.println("µÚ¶ş¸ö¹¹ÔìÆ÷Êä³ö" + t1.name);
+	Person t1 = new Person("jack", 99);//ç¬¬ä¸€ä¸ªæ„é€ å™¨
+	Person t2 = new Person("Tom");//ç¬¬äºŒä¸ªæ„é€ å™¨
+	System.out.println("ç¬¬ä¸€ä¸ªæ„é€ å™¨è¾“å‡º" + t1.name + " " + t1.age);
+	System.out.println("ç¬¬äºŒä¸ªæ„é€ å™¨è¾“å‡º" + t1.name);
 
 	}
+}
+class Dog{
+	//å¦‚æœç¨‹åºå‘˜æ²¡æœ‰å®šä¹‰æ„é€ å™¨ï¼Œç³»ç»Ÿä¼šè‡ªåŠ¨ç»™ç±»ç”Ÿæˆä¸€ä¸ªé»˜è®¤æ— å‚æ„é€ å™¨(ä¹Ÿå«é»˜è®¤æ„é€ å™¨)
+	//ä½¿ç”¨ javap æŒ‡ä»¤ åç¼–è¯‘çœ‹çœ‹
+	/*
+		é»˜è®¤æ„é€ å™¨
+		Dog(){
+	
+		}
+	*/
+
 }
 class Person {
 	String name;
@@ -14,7 +25,7 @@ class Person {
 		name = pName;
 		age = pAge;
 	}
-	public Person(String pName){//¹¹ÔìÆ÷ÖØÔØ
+	public Person(String pName){//æ„é€ å™¨é‡è½½
 		name = pName;
 	}
 }
