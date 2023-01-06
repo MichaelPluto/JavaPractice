@@ -3,27 +3,28 @@ package com.yzf.homework;
 public class HomeWork01 {
     public static void main(String[] args) {
         Person[] people = new Person[3];
-        people[0] = new Person("jack" , 25 , "程序员");
-        people[1] = new Person("tom" , 54, "主管");
+        people[0] = new Person("jack", 25, "程序员");
+        people[1] = new Person("tom", 54, "主管");
         people[2] = new Person("杨质飞", 23, "董事长");
-        int arr[] = {people[0].getAge(), people[1].getAge(), people[2].getAge()};
-        int temp = 0;
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - 1 -i; j++) {
-                if(arr[i+1] < arr[i]){
-                    temp = arr[i+1];
-                    arr[i+1] = arr[i];
-                    arr[i] = temp;
 
+        Person temp = null;//临时变量，用于交换
+        for (int i = 0; i < people.length - 1; i++) {
+            for (int j = 0; j < people.length - i - 1; j++) {
+                if(people[j].getAge() < people[j+1].getAge()){
+                    temp =  people[j];
+                    people[j] = people[j+1];
+                    people[j+1] = temp;
                 }
             }
-
-
+        }
+        for (int i = 0; i < people.length; i++) {
+            System.out.println(people[i]);
         }
     }
 
 }
-class Person{
+
+class Person {
     private String name;
     private int age;
     private String job;
@@ -58,7 +59,12 @@ class Person{
         this.job = job;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", job='" + job + '\'' +
+                '}';
+    }
 }

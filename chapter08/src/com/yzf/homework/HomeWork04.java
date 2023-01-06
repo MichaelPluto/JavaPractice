@@ -4,6 +4,7 @@ public class HomeWork04 {
     public static void main(String[] args) {
         Worker worker = new Worker("刘芮", 300, 28, 1.0);
         Manager manager = new Manager("杨质飞", 500, 20, 1.2);
+        manager.setBonus(2000);
         System.out.println("普通员工" + worker.getName() + "工资=" + worker.sal());
         System.out.println("部门经理" + manager.getName() + "工资=" + manager.sal());
     }
@@ -68,6 +69,15 @@ class Worker extends Employee{
 }
 class Manager extends Employee {
     private double state;
+    private double bonus ;//不设置构造器，在对象中去定义更灵活
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
 
     public Manager(String name, double singleSal, int workDay, double state) {
         super(name, singleSal, workDay);
@@ -76,7 +86,7 @@ class Manager extends Employee {
 
     @Override
     public double sal() {
-        return super.sal()*getState() + 1000;
+        return super.sal()*getState() + bonus;
     }
 
     public double getState() {

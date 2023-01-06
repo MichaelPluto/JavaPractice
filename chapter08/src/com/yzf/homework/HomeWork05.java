@@ -5,8 +5,11 @@ public class HomeWork05 {
         Workers workers = new Workers("jack", 55, 50000);
         Peasant peasant = new Peasant("tom", 56, 80000);
         Waiter waiter = new Waiter("popy", 28, 45000);
-        Teachers teachers = new Teachers("刘芮", 21, 100000, 100);
-        Scientist scientist = new Scientist("杨质飞", 22, 100000, 50000);
+        Teachers teachers = new Teachers("刘芮", 21, 100000);
+        teachers.setClassDay(120);
+        teachers.setClassSal(150);
+        Scientist scientist = new Scientist("杨质飞", 22, 100000);
+        scientist.setBonus(50000);
         System.out.println("工人" + workers.getName() +" " + "年收入=" + workers.print());
         System.out.println("农民" + peasant.getName() +" " + "年收入=" + peasant.print());
         System.out.println("服务员"+ waiter.getName() +" " +"年收入=" + waiter.print());
@@ -69,15 +72,18 @@ class Waiter extends Employees{
 }
 class Teachers extends Employees{
     private double classDay;
+    private double classSal;
 
-    public Teachers(String name, int age, double sal, double classDay) {
+    public Teachers(String name, int age, double sal) {
         super(name, age, sal);
-        this.classDay = classDay;
     }
 
-    @Override
-    public double  print() {
-        return super.print()*365*getClassDay();
+    public double getClassSal() {
+        return classSal;
+    }
+
+    public void setClassSal(double classSal) {
+        this.classSal = classSal;
     }
 
     public double getClassDay() {
@@ -87,14 +93,18 @@ class Teachers extends Employees{
     public void setClassDay(double classDay) {
         this.classDay = classDay;
     }
+    @Override
+    public double  print() {
+        return super.print()+(getClassSal()*getClassDay());
+    }
 }
 class Scientist extends Employees{
     private double bonus;
 
-    public Scientist(String name, int age, double sal, double bonus) {
+    public Scientist(String name, int age, double sal) {
         super(name, age, sal);
-        this.bonus = bonus;
     }
+
 
     @Override
     public double print() {

@@ -27,7 +27,8 @@ class Teacher{
 
     }
     public String introduce(){
-        return "姓名=" + getName() + " " + "年龄=" + getAge() + " " + "职位=" + getPost() +" " +  "基本工资="+ " " + getSalary();
+        return "姓名=" + getName() + " " + "年龄=" + getAge() + " " +
+                "职位=" + getPost() +" " +  "基本工资="+ " " + getSalary();
     }
     public String getName() {
         return name;
