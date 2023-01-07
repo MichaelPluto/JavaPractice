@@ -2,37 +2,55 @@ package com.yzf.homework;
 
 public class HomeWork13 {
     public static void main(String[] args) {
+
         Person2[] people = new Person2[4];
         people[0] = new Student1("jack", '男', 21, 15030119);
         people[1] = new Student1("Tom", '女', 22, 15030118);
         people[2] = new Teacher1("mars", '男', 45, 10);
         people[3] = new Teacher1("jack", '男', 30, 6);
-            Person2 temp = null;
-        for (int i = 0; i < people.length - 1; i++) {
-            for (int j = 0; j < people.length - i - 1; j++) {
-                if(people[j].getAge() < people[j+1].getAge()){
-                    temp = people[j+1];
-                    people[j+1] = people[j];
-                    people[j] = temp;
-                }
-            }
-            }
+        HomeWork13 homeWork13 = new HomeWork13();
+         homeWork13.bubbleSort(people);
+         //输出排序后的数组
+        System.out.println("---年龄排序后的数组---");
         for (int j = 0; j < people.length; j++) {
-            System.out.println(people[j].printlnfo());
-            people[j].play();
-            people[j].tool(people[j]);
+            people[j].printlnfo();
+            homeWork13.tool(people[j]);
+            System.out.println("--------------------------");
         }
     }
+        public void bubbleSort(Person2[] people){
+            Person2 temp = null;
+            for (int i = 0; i < people.length - 1; i++) {
+                for (int j = 0; j < people.length - i - 1; j++) {
+                    if(people[j].getAge() < people[j+1].getAge()){
+                        temp = people[j];
+                        people[j] = people[j+1];
+                        people[j+1] = temp;
+                    }
+                }
+            }
+        }
+            public void tool(Person2 p){
+                if(p instanceof Student1){
+                    ((Student1) p).study();
+                }else if (p instanceof  Teacher1){
+                    ((Teacher1) p).teach();
+                }
+            }
 }
 class Person2{
     private String name;
     private char gender;
     private int age;
-    public String printlnfo(){
-            return "姓名=" + getName()+" "+"性别" + getGender()+" "+ "年龄" + getAge();
+    public String basicInfo(){
+        return "姓名:" + " " + getName()+"\n"+"性别:"+" " + getGender()+"\n"+ "年龄:" + " " + getAge() + "\n";
     }
-    public void play(){
-        System.out.println(getName());
+    public void printlnfo(){
+        System.out.println(basicInfo());
+
+    }
+    public String play(){
+        return getName() + "爱玩";
     }
     public Person2(String name, char gender, int age) {
         this.name = name;
@@ -48,15 +66,7 @@ class Person2{
                 ", age=" + age +
                 '}';
     }
-    public void tool(Person2 p){
-        if(p instanceof Student1){
-            Student1 s = (Student1) p;
-            s.study();
-        }else if (p instanceof  Teacher1){
-            Teacher1 t = (Teacher1) p;
-            t.teach();
-        }
-    }
+
     public String getName() {
         return name;
     }
@@ -100,15 +110,18 @@ class Student1 extends Person2{
     }
 
     public void study(){
-        System.out.println("我承诺，我会好好学习");
+        System.out.println(getName() + "承诺，我会好好学习");
     }
-    public void play(){
-        System.out.println(super.getName() + "爱玩足球");
+    public String play(){
+        return super.play() + "足球";
+
     }
 
     @Override
-    public String printlnfo() {
-        return super.printlnfo() +" " + "学号=" +  getStu_id();
+    public void printlnfo() {
+        System.out.println("学生的信息：");
+        System.out.println(super.basicInfo()  + "学号：" +" " + stu_id);
+        System.out.println(play());
     }
 }
 class Teacher1 extends Person2{
@@ -128,14 +141,16 @@ class Teacher1 extends Person2{
     }
 
     public void teach(){
-        System.out.println("我承诺，我会认真教学");
+        System.out.println(getName() + "承诺，我会认真教学");
     }
-    public void play(){
-        System.out.println(super.getName() +"爱玩象棋");
+    public String play(){
+        return super.play() + "象棋";
     }
 
     @Override
-    public String printlnfo() {
-        return super.printlnfo()+" "+ " 教龄=" +getWork_age() ;
+    public void printlnfo() {
+        System.out.println("老师的信息：");
+        System.out.println(super.basicInfo() + "教龄:" + " " + work_age);
+        System.out.println(play());
     }
 }

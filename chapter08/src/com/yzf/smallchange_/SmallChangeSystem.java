@@ -69,7 +69,7 @@ public class SmallChangeSystem {
                     String choice ="";
                     while(true) {
                         System.out.println("确定要退出吗？y/n");
-                        choice = scanner.next();
+                        choice = scanner.next();//过关斩将方式
                         if ("y".equals(choice)|| "n".equals(choice)) {
                             break;
                         }
