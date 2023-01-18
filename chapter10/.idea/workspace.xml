@@ -37,61 +37,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.LocalInnerClass">
-    <configuration name="ExtendsVsInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.interface_.ExtendsVsInterface" />
-      <module name="chapter10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.interface_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceExercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.interface_.InterfaceExercise01" />
-      <module name="chapter10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.interface_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.interface_.InterfaceExercise02" />
-      <module name="chapter10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.interface_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfacePolyArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.interface_.InterfacePolyArr" />
-      <module name="chapter10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.interface_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocalInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.innerclass_.LocalInnerClass" />
+  <component name="RunManager" selected="Application.InnerClassExercise">
+    <configuration name="AnonymousInnerClassExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.innerclass_.AnonymousInnerClassExercise02" />
       <module name="chapter10" />
       <extension name="coverage">
         <pattern>
@@ -103,31 +51,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="InnerClassExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.innerclass_.InnerClassExercise" />
+      <module name="chapter10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.innerclass_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberInnerClass01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.innerclass_.MemberInnerClass01" />
+      <module name="chapter10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.innerclass_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberInnerClass02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.innerclass_.MemberInnerClass02" />
+      <module name="chapter10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.innerclass_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticInnerClass01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.innerclass_.StaticInnerClass01" />
+      <module name="chapter10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.innerclass_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InterfaceExercise01" />
-      <item itemvalue="Application.ExtendsVsInterface" />
-      <item itemvalue="Application.InterfacePolyArr" />
-      <item itemvalue="Application.InterfaceExercise02" />
-      <item itemvalue="Application.LocalInnerClass" />
+      <item itemvalue="Application.AnonymousInnerClassExercise02" />
+      <item itemvalue="Application.MemberInnerClass01" />
+      <item itemvalue="Application.MemberInnerClass02" />
+      <item itemvalue="Application.StaticInnerClass01" />
+      <item itemvalue="Application.InnerClassExercise" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocalInnerClass" />
-        <item itemvalue="Application.InterfaceExercise02" />
-        <item itemvalue="Application.InterfacePolyArr" />
-        <item itemvalue="Application.ExtendsVsInterface" />
-        <item itemvalue="Application.InterfaceExercise01" />
+        <item itemvalue="Application.InnerClassExercise" />
+        <item itemvalue="Application.StaticInnerClass01" />
+        <item itemvalue="Application.MemberInnerClass02" />
+        <item itemvalue="Application.MemberInnerClass01" />
+        <item itemvalue="Application.AnonymousInnerClassExercise02" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +146,7 @@
       <workItem from="1673744395597" duration="15060000" />
       <workItem from="1673847766613" duration="1559000" />
       <workItem from="1673936004193" duration="11997000" />
+      <workItem from="1674020203243" duration="11036000" />
     </task>
     <servers />
   </component>
@@ -155,33 +158,49 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="410" y="161" width="1106" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1673709635680" />
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1673962091513">
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1674026827022">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1673962091513" />
-    <state width="1867" height="313" key="GridCell.Tab.0.bottom" timestamp="1673964758838">
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1674026827022" />
+    <state width="1867" height="218" key="GridCell.Tab.0.bottom" timestamp="1674032940874">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1673964758838" />
-    <state width="1867" height="313" key="GridCell.Tab.0.center" timestamp="1673964758838">
+    <state width="1867" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1674032940874" />
+    <state width="1867" height="218" key="GridCell.Tab.0.center" timestamp="1674032940874">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="313" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1673964758838" />
-    <state width="1867" height="313" key="GridCell.Tab.0.left" timestamp="1673964758838">
+    <state width="1867" height="218" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1674032940874" />
+    <state width="1867" height="218" key="GridCell.Tab.0.left" timestamp="1674032940874">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="313" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1673964758838" />
-    <state width="1867" height="313" key="GridCell.Tab.0.right" timestamp="1673964758838">
+    <state width="1867" height="218" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1674032940874" />
+    <state width="1867" height="218" key="GridCell.Tab.0.right" timestamp="1674032940874">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="313" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1673964758838" />
+    <state width="1867" height="218" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1674032940874" />
+    <state width="1867" height="327" key="GridCell.Tab.1.bottom" timestamp="1674030891432">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1674030891432" />
+    <state width="1867" height="327" key="GridCell.Tab.1.center" timestamp="1674030891432">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1674030891432" />
+    <state width="1867" height="327" key="GridCell.Tab.1.left" timestamp="1674030891432">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1674030891432" />
+    <state width="1867" height="327" key="GridCell.Tab.1.right" timestamp="1674030891432">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1674030891432" />
     <state x="92" y="92" width="1736" height="848" key="dock-window-1" timestamp="1673938101627">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="92" y="92" width="1736" height="848" key="dock-window-1/0.0.1920.1032@0.0.1920.1032" timestamp="1673938101627" />
-    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1673962127120">
+    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1674030215357">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1673962127120" />
+    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1674030215357" />
   </component>
 </project>
