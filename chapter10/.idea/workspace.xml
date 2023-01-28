@@ -103,15 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +145,8 @@
       <workItem from="1673847766613" duration="1559000" />
       <workItem from="1673936004193" duration="11997000" />
       <workItem from="1674020203243" duration="11036000" />
+      <workItem from="1674799712280" duration="1263000" />
+      <workItem from="1674880908021" duration="658000" />
     </task>
     <servers />
   </component>
@@ -198,6 +198,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="92" y="92" width="1736" height="848" key="dock-window-1/0.0.1920.1032@0.0.1920.1032" timestamp="1673938101627" />
+    <state x="158" y="24" key="new project wizard" timestamp="1674881710070">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="158" y="24" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1674881710070" />
     <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1674030215357">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
