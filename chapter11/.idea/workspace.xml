@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,7 +37,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.EnumerationDetail">
+  <component name="RunManager" selected="Application.HomeWork06">
     <configuration name="Enumeration03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzf.enum_.Enumeration03" />
       <module name="chapter11" />
@@ -50,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumerationDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.enum_.EnumerationDetail" />
+    <configuration name="HomeWork05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork05" />
       <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.enum_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumerationExercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.enum_.EnumerationExercise01" />
+    <configuration name="HomeWork06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork06" />
       <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.enum_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumerationExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.enum_.EnumerationExercise02" />
+    <configuration name="HomeWork07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork07" />
       <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.enum_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumerationMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.enum_.EnumerationMethod" />
+    <configuration name="HomeWork08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork08" />
       <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.enum_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,24 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnumerationDetail" />
-        <item itemvalue="Application.EnumerationExercise02" />
-        <item itemvalue="Application.EnumerationMethod" />
-        <item itemvalue="Application.EnumerationExercise01" />
+        <item itemvalue="Application.HomeWork06" />
+        <item itemvalue="Application.HomeWork08" />
+        <item itemvalue="Application.HomeWork07" />
         <item itemvalue="Application.Enumeration03" />
+        <item itemvalue="Application.HomeWork05" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674881715934</updated>
       <workItem from="1674881717001" duration="8941000" />
+      <workItem from="1674968192783" duration="13664000" />
     </task>
     <servers />
   </component>
@@ -139,25 +143,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1674890597200">
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1674983472049">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1674890597200" />
-    <state width="1867" height="263" key="GridCell.Tab.0.bottom" timestamp="1674890649861">
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1674983472049" />
+    <state width="1867" height="263" key="GridCell.Tab.0.bottom" timestamp="1674984832578">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1674890649861" />
-    <state width="1867" height="263" key="GridCell.Tab.0.center" timestamp="1674890649861">
+    <state width="1867" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1674984832578" />
+    <state width="1867" height="263" key="GridCell.Tab.0.center" timestamp="1674984832578">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1674890649861" />
-    <state width="1867" height="263" key="GridCell.Tab.0.left" timestamp="1674890649861">
+    <state width="1867" height="263" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1674984832578" />
+    <state width="1867" height="263" key="GridCell.Tab.0.left" timestamp="1674984832578">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1674890649861" />
-    <state width="1867" height="263" key="GridCell.Tab.0.right" timestamp="1674890649861">
+    <state width="1867" height="263" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1674984832578" />
+    <state width="1867" height="263" key="GridCell.Tab.0.right" timestamp="1674984832578">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1674890649861" />
+    <state width="1867" height="263" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1674984832578" />
   </component>
 </project>
