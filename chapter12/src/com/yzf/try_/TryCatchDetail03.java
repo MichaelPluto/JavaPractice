@@ -1,4 +1,4 @@
-package com.yzf.exception_.try_;
+package com.yzf.try_;
 
 public class TryCatchDetail03 {
     public static void main(String[] args) {

@@ -17,6 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/yzf/throws_/ThrowsDetail.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2L03vVox611ylDFgkCCxBtwKjac" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,13 +39,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.TryCatchDetail03">
-    <configuration name="ArrayIndexOutOfBoundsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.exception_.ArrayIndexOutOfBoundsException" />
+  <component name="RunManager" selected="Application.HomeWork04">
+    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork01" />
       <module name="chapter12" />
+      <option name="PROGRAM_PARAMETERS" value="10 0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.exception_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +54,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassCastException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.exception_.ClassCastException" />
+    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork02" />
       <module name="chapter12" />
+      <option name="PROGRAM_PARAMETERS" value="jack mary tom yzf kky" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.exception_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberFormatException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.exception_.NumberFormatException" />
+    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork03" />
       <module name="chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.exception_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchDetail02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.exception_.try_.TryCatchDetail02" />
+    <configuration name="HomeWork04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork04" />
       <module name="chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.exception_.try_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchDetail03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.exception_.try_.TryCatchDetail03" />
+    <configuration name="ThrowException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.throws_.ThrowException" />
       <module name="chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.exception_.try_.*" />
+          <option name="PATTERN" value="com.yzf.throws_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,24 +107,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HomeWork01" />
+      <item itemvalue="Application.ThrowException" />
+      <item itemvalue="Application.HomeWork02" />
+      <item itemvalue="Application.HomeWork03" />
+      <item itemvalue="Application.HomeWork04" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TryCatchDetail03" />
-        <item itemvalue="Application.TryCatchDetail02" />
-        <item itemvalue="Application.NumberFormatException" />
-        <item itemvalue="Application.ClassCastException" />
-        <item itemvalue="Application.ArrayIndexOutOfBoundsException" />
+        <item itemvalue="Application.HomeWork04" />
+        <item itemvalue="Application.HomeWork03" />
+        <item itemvalue="Application.HomeWork02" />
+        <item itemvalue="Application.HomeWork01" />
+        <item itemvalue="Application.ThrowException" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674994405271</updated>
       <workItem from="1674994406298" duration="3079000" />
+      <workItem from="1675662045994" duration="10347000" />
     </task>
     <servers />
   </component>
@@ -139,25 +154,53 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1675001527042">
+    <state x="410" y="161" width="1106" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1675672853901">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="718" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1675001527042" />
-    <state width="1867" height="263" key="GridCell.Tab.0.bottom" timestamp="1675001732485">
+    <state x="410" y="161" width="1106" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1675672853901" />
+    <state x="718" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1675670134460">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1675001732485" />
-    <state width="1867" height="263" key="GridCell.Tab.0.center" timestamp="1675001732485">
+    <state x="718" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1675670134460" />
+    <state x="600" y="284" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1675665559323">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1675001732485" />
-    <state width="1867" height="263" key="GridCell.Tab.0.left" timestamp="1675001732485">
+    <state x="600" y="284" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1675665559323" />
+    <state width="1867" height="324" key="GridCell.Tab.0.bottom" timestamp="1675673322783">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1675001732485" />
-    <state width="1867" height="263" key="GridCell.Tab.0.right" timestamp="1675001732485">
+    <state width="1867" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1675673322783" />
+    <state width="1867" height="324" key="GridCell.Tab.0.center" timestamp="1675673322768">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="263" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1675001732485" />
+    <state width="1867" height="324" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1675673322768" />
+    <state width="1867" height="324" key="GridCell.Tab.0.left" timestamp="1675673322768">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="324" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1675673322768" />
+    <state width="1867" height="324" key="GridCell.Tab.0.right" timestamp="1675673322768">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="324" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1675673322768" />
+    <state width="1867" height="327" key="GridCell.Tab.1.bottom" timestamp="1675670287705">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1675670287705" />
+    <state width="1867" height="327" key="GridCell.Tab.1.center" timestamp="1675670287705">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1675670287705" />
+    <state width="1867" height="327" key="GridCell.Tab.1.left" timestamp="1675670287705">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1675670287705" />
+    <state width="1867" height="327" key="GridCell.Tab.1.right" timestamp="1675670287705">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="327" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1675670287705" />
+    <state x="532" y="235" key="run.anything.popup" timestamp="1675672030346">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="532" y="235" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1675672030346" />
   </component>
 </project>
