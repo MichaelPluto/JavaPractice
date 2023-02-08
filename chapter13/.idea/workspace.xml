@@ -36,13 +36,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.WrapperExercise03">
-    <configuration name="WrapperExercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.wrapper.WrapperExercise01" />
+  <component name="RunManager" selected="Application.StringVSStingBufferVSStringBuilder">
+    <configuration name="StringBufferExercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.stringbuffer_.StringBufferExercise01" />
       <module name="chapter13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.wrapper.*" />
+          <option name="PATTERN" value="com.yzf.stringbuffer_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +50,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.wrapper.WrapperExercise02" />
+    <configuration name="StringBufferMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.stringbuffer_.StringBufferMethod" />
       <module name="chapter13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.wrapper.*" />
+          <option name="PATTERN" value="com.yzf.stringbuffer_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperExercise03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.wrapper.WrapperExercise03" />
+    <configuration name="StringMethod01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.string_.StringMethod01" />
       <module name="chapter13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.wrapper.*" />
+          <option name="PATTERN" value="com.yzf.string_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.wrapper.WrapperMethod" />
+    <configuration name="StringMethod02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.string_.StringMethod02" />
       <module name="chapter13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.wrapper.*" />
+          <option name="PATTERN" value="com.yzf.string_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperVSString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.wrapper.WrapperVSString" />
+    <configuration name="StringVSStingBufferVSStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.stringbuilder.StringVSStingBufferVSStringBuilder" />
       <module name="chapter13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.wrapper.*" />
+          <option name="PATTERN" value="com.yzf.stringbuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,24 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WrapperExercise03" />
-        <item itemvalue="Application.WrapperExercise02" />
-        <item itemvalue="Application.WrapperMethod" />
-        <item itemvalue="Application.WrapperVSString" />
-        <item itemvalue="Application.WrapperExercise01" />
+        <item itemvalue="Application.StringVSStingBufferVSStringBuilder" />
+        <item itemvalue="Application.StringBufferExercise01" />
+        <item itemvalue="Application.StringBufferMethod" />
+        <item itemvalue="Application.StringMethod02" />
+        <item itemvalue="Application.StringMethod01" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675765754785</updated>
       <workItem from="1675765755806" duration="5586000" />
+      <workItem from="1675832507261" duration="10819000" />
     </task>
     <servers />
   </component>
@@ -139,37 +142,56 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1867" height="321" key="GridCell.Tab.0.bottom" timestamp="1675771160492">
+    <state width="470" height="582" key="DebuggerActiveHint" timestamp="1675837348177">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1675771160492" />
-    <state width="1867" height="321" key="GridCell.Tab.0.center" timestamp="1675771160492">
+    <state width="470" height="582" key="DebuggerActiveHint/0.0.1920.1032@0.0.1920.1032" timestamp="1675837348177" />
+    <state width="1867" height="269" key="GridCell.Tab.0.bottom" timestamp="1675849194571">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="321" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1675771160492" />
-    <state width="1867" height="321" key="GridCell.Tab.0.left" timestamp="1675771160492">
+    <state width="1867" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1675849194571" />
+    <state width="1867" height="269" key="GridCell.Tab.0.center" timestamp="1675849194571">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="321" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1675771160492" />
-    <state width="1867" height="321" key="GridCell.Tab.0.right" timestamp="1675771160492">
+    <state width="1867" height="269" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1675849194571" />
+    <state width="1867" height="269" key="GridCell.Tab.0.left" timestamp="1675849194571">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="321" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1675771160492" />
-    <state width="1867" height="327" key="GridCell.Tab.1.bottom" timestamp="1675770642497">
+    <state width="1867" height="269" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1675849194571" />
+    <state width="1867" height="269" key="GridCell.Tab.0.right" timestamp="1675849194571">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1675770642497" />
-    <state width="1867" height="327" key="GridCell.Tab.1.center" timestamp="1675770642497">
+    <state width="1867" height="269" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1675849194571" />
+    <state width="1867" height="272" key="GridCell.Tab.1.bottom" timestamp="1675838626251">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1675770642497" />
-    <state width="1867" height="327" key="GridCell.Tab.1.left" timestamp="1675770642497">
+    <state width="1867" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1675838626251" />
+    <state width="1867" height="272" key="GridCell.Tab.1.center" timestamp="1675838626251">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1675770642497" />
-    <state width="1867" height="327" key="GridCell.Tab.1.right" timestamp="1675770642497">
+    <state width="1867" height="272" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1675838626251" />
+    <state width="1867" height="272" key="GridCell.Tab.1.left" timestamp="1675838626251">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1675770642497" />
+    <state width="1867" height="272" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1675838626251" />
+    <state width="1867" height="272" key="GridCell.Tab.1.right" timestamp="1675838626251">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="272" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1675838626251" />
+    <state x="706" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1675834268873">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="706" y="408" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1675834268873" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yzf/string_/StringExercise08.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
