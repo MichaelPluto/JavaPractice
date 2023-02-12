@@ -51,7 +51,7 @@ class Book{
         int size = list.size();
         for (int i = 0; i < size - 1; i++) {
             for (int j = 0; j < size - i - 1; j++) {
-                //向下转型获取 getprice方法
+                //向下转型获取 getPrice方法
                 //取出对象Book
                 Book book1 = (Book)list.get(j);//取出第j个对象
                 Book book2 = (Book)list.get(j+1);//取出第j+1个对象
