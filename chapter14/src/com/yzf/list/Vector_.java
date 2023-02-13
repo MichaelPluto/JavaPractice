@@ -6,7 +6,7 @@ public class Vector_ {
     public static void main(String[] args) {
         //无参构造器
 //有参数的构造
-        Vector vector = new Vector(8);
+        Vector vector = new Vector();
         for (int i = 0; i < 10; i++) {
             vector.add(i);
 
