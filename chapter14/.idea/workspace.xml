@@ -40,13 +40,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.MapExercise">
-    <configuration name="LinkedHashSetExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.set_.LinkedHashSetExercise" />
+  <component name="RunManager" selected="Application.HomeWorker06">
+    <configuration name="Collections_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.collections_.Collections_" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.set_.*" />
+          <option name="PATTERN" value="com.yzf.collections_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.map.MapExercise" />
+    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork01" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.map.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.map.MapFor" />
+    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork02" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.map.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.map.MapMethod" />
+    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork03" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.map.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.map.Map_" />
+    <configuration name="HomeWorker06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWorker06" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.map.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,26 +106,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapExercise" />
-        <item itemvalue="Application.MapFor" />
-        <item itemvalue="Application.MapMethod" />
-        <item itemvalue="Application.Map_" />
-        <item itemvalue="Application.LinkedHashSetExercise" />
+        <item itemvalue="Application.HomeWorker06" />
+        <item itemvalue="Application.HomeWork03" />
+        <item itemvalue="Application.HomeWork02" />
+        <item itemvalue="Application.HomeWork01" />
+        <item itemvalue="Application.Collections_" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +141,8 @@
       <workItem from="1676210468962" duration="2680000" />
       <workItem from="1676214862805" duration="40000" />
       <workItem from="1676214919360" duration="1950000" />
-      <workItem from="1676265970075" duration="12566000" />
+      <workItem from="1676265970075" duration="13206000" />
+      <workItem from="1676355406094" duration="15356000" />
     </task>
     <servers />
   </component>
@@ -159,10 +158,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="312" y="0" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1676111487849" />
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1676281334714">
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1676380523334">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676281334714" />
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676380523334" />
     <state x="560" y="72" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1676193995220">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -171,38 +170,38 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="499" height="582" key="DebuggerActiveHint/0.0.1920.1032@0.0.1920.1032" timestamp="1676268123246" />
-    <state width="1867" height="246" key="GridCell.Tab.0.bottom" timestamp="1676283120593">
+    <state width="1867" height="246" key="GridCell.Tab.0.bottom" timestamp="1676381079392">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676283120593" />
-    <state width="1867" height="246" key="GridCell.Tab.0.center" timestamp="1676283120593">
+    <state width="1867" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
+    <state width="1867" height="246" key="GridCell.Tab.0.center" timestamp="1676381079392">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676283120593" />
-    <state width="1867" height="246" key="GridCell.Tab.0.left" timestamp="1676283120593">
+    <state width="1867" height="246" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
+    <state width="1867" height="246" key="GridCell.Tab.0.left" timestamp="1676381079392">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676283120593" />
-    <state width="1867" height="246" key="GridCell.Tab.0.right" timestamp="1676283120593">
+    <state width="1867" height="246" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
+    <state width="1867" height="246" key="GridCell.Tab.0.right" timestamp="1676381079392">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676283120593" />
-    <state width="1867" height="262" key="GridCell.Tab.1.bottom" timestamp="1676273815480">
+    <state width="1867" height="246" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
+    <state width="1867" height="296" key="GridCell.Tab.1.bottom" timestamp="1676365575427">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676273815480" />
-    <state width="1867" height="262" key="GridCell.Tab.1.center" timestamp="1676273815480">
+    <state width="1867" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676365575427" />
+    <state width="1867" height="296" key="GridCell.Tab.1.center" timestamp="1676365575427">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676273815480" />
-    <state width="1867" height="262" key="GridCell.Tab.1.left" timestamp="1676273815480">
+    <state width="1867" height="296" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676365575427" />
+    <state width="1867" height="296" key="GridCell.Tab.1.left" timestamp="1676365575427">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676273815480" />
-    <state width="1867" height="262" key="GridCell.Tab.1.right" timestamp="1676273815480">
+    <state width="1867" height="296" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676365575427" />
+    <state width="1867" height="296" key="GridCell.Tab.1.right" timestamp="1676365575427">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676273815480" />
+    <state width="1867" height="296" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676365575427" />
     <state x="329" y="73" key="SettingsEditor" timestamp="1676215246969">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -238,6 +237,11 @@
           <url>file://$PROJECT_DIR$/src/com/yzf/set_/HashSetSource.java</url>
           <line>6</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yzf/map/HashMapSource2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassCastException" package="java.lang" />
