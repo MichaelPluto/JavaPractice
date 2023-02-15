@@ -26,6 +26,10 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -40,26 +44,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.HomeWorker06">
-    <configuration name="Collections_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.collections_.Collections_" />
-      <module name="chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.collections_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HomeWork01.show">
     <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork01" />
+      <option name="MAIN_CLASS_NAME" value="com.yzf.customgeneric_.homework_.HomeWork01" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.homework_.*" />
+          <option name="PATTERN" value="com.yzf.customgeneric_.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,38 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork02" />
+    <configuration name="JUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.junit_.JUnit" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.homework_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork03" />
-      <module name="chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.homework_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWorker06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWorker06" />
-      <module name="chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.homework_.*" />
+          <option name="PATTERN" value="com.yzf.junit_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,13 +82,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeWork01.show" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.customgeneric_.homework_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yzf.customgeneric_.homework_" />
+      <option name="MAIN_CLASS_NAME" value="com.yzf.customgeneric_.homework_.HomeWork01" />
+      <option name="METHOD_NAME" value="show" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Junit.m1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.junit_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yzf.junit_" />
+      <option name="MAIN_CLASS_NAME" value="com.yzf.junit_.Junit" />
+      <option name="METHOD_NAME" value="m1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Junit.m2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.junit_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yzf.junit_" />
+      <option name="MAIN_CLASS_NAME" value="com.yzf.junit_.Junit" />
+      <option name="METHOD_NAME" value="m2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWorker06" />
-        <item itemvalue="Application.HomeWork03" />
-        <item itemvalue="Application.HomeWork02" />
+        <item itemvalue="JUnit.HomeWork01.show" />
         <item itemvalue="Application.HomeWork01" />
-        <item itemvalue="Application.Collections_" />
+        <item itemvalue="Application.JUnit" />
+        <item itemvalue="JUnit.Junit.m2" />
+        <item itemvalue="JUnit.Junit.m1" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +156,8 @@
       <workItem from="1676214919360" duration="1950000" />
       <workItem from="1676265970075" duration="13206000" />
       <workItem from="1676355406094" duration="15356000" />
+      <workItem from="1676440427260" duration="8281000" />
+      <workItem from="1676459028761" duration="6955000" />
     </task>
     <servers />
   </component>
@@ -158,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="312" y="0" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1676111487849" />
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1676380523334">
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1676466219226">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676380523334" />
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676466219226" />
     <state x="560" y="72" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1676193995220">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -170,22 +185,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="499" height="582" key="DebuggerActiveHint/0.0.1920.1032@0.0.1920.1032" timestamp="1676268123246" />
-    <state width="1867" height="246" key="GridCell.Tab.0.bottom" timestamp="1676381079392">
+    <state width="1867" height="290" key="GridCell.Tab.0.bottom" timestamp="1676467448888">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
-    <state width="1867" height="246" key="GridCell.Tab.0.center" timestamp="1676381079392">
+    <state width="1867" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676467448888" />
+    <state width="1867" height="290" key="GridCell.Tab.0.center" timestamp="1676467448888">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
-    <state width="1867" height="246" key="GridCell.Tab.0.left" timestamp="1676381079392">
+    <state width="1867" height="290" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676467448888" />
+    <state width="1867" height="290" key="GridCell.Tab.0.left" timestamp="1676467448888">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
-    <state width="1867" height="246" key="GridCell.Tab.0.right" timestamp="1676381079392">
+    <state width="1867" height="290" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676467448888" />
+    <state width="1867" height="290" key="GridCell.Tab.0.right" timestamp="1676467448888">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="246" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676381079392" />
+    <state width="1867" height="290" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676467448888" />
     <state width="1867" height="296" key="GridCell.Tab.1.bottom" timestamp="1676365575427">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -206,14 +221,18 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="329" y="73" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1676215246969" />
+    <state x="579" y="385" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1676465171336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="579" y="385" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1032@0.0.1920.1032" timestamp="1676465171336" />
     <state x="386" y="188" width="1148" height="785" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1676282854960">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="386" y="188" width="1148" height="785" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1032@0.0.1920.1032" timestamp="1676282854960" />
-    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1676282813449">
+    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1676462485914">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1676282813449" />
+    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1676462485914" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
