@@ -18,7 +18,7 @@ public class DAO <T> {
     }
     public List<T> list(){
         //返回map中存放的所以T对象
-        //要先遍历
+        //要先遍历,返回类型为list，所以new 一个 ArrayList 的list用于接收返回值
         List <T> list = new ArrayList<>();
         Set<String> keySet = map.keySet();
         for (String key : keySet) {
