@@ -1,7 +1,6 @@
-package com.yzf.tankgame_;
+package com.yzf.tankgame01_;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class TankGame01 extends JFrame{
     //定义MyPanel

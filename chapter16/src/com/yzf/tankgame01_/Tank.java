@@ -1,4 +1,4 @@
-package com.yzf.tankgame_;
+package com.yzf.tankgame01_;
 
 public class Tank {
     private int x;//坦克的横坐标

@@ -1,18 +1,31 @@
-package com.yzf.tankgame_;
+package com.yzf.tankgame007_;
+
+import com.yzf.tankgame01_.EnemyTank;
+import com.yzf.tankgame01_.Hero;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.Vector;
 
 //坦克大战的绘图区域
+@SuppressWarnings({"all"})
 public class MyPanel extends JPanel implements KeyListener {
     //定义我的坦克
-    Hero hero = null;
-
+    com.yzf.tankgame01_.Hero hero = null;
+    //定义敌方坦克,因为敌方坦克数量不确定，所以将其放入一个集合中
+    Vector<EnemyTank> enemyTanks = new Vector<>();
     public MyPanel() {
         hero = new Hero(100, 100);//初始化坦克
         hero.setSpeed(4);
+        //初始化敌方坦克，循环加入敌方坦克入集合中
+        int enemySize = 3;
+        for (int i = 0; i < enemySize; i++) {
+            enemyTanks.add(new EnemyTank(100*(i+1),0));
+            EnemyTank tank = enemyTanks.get(i);
+            tank.setSpeed(i+2);
+        }
     }
 
     @Override
@@ -21,8 +34,16 @@ public class MyPanel extends JPanel implements KeyListener {
         super.paint(g);
         g.fillRect(0, 0, 1000, 750);//默认黑色
         //将绘制坦克封装成一个方法，再调用即可
-        //drawTank(hero.getX(), hero.getY(), g, 0, 0);
-        drawTank(hero.getX() + 60, hero.getY(), g, 1, hero.getDirection());
+        //drawTank(hero.getX(), hero.getY(), g, 0, hero.getDirection());
+        drawTank(hero.getX() + 60, hero.getY(), g, 0, hero.getDirection());
+        //绘制敌方坦克，遍历Vector
+        for (int i = 0; i < enemyTanks.size(); i++) {
+            //取出坦克
+            EnemyTank enemyTank = enemyTanks.get(i);
+            //enemyTank.setDirection(1);
+            drawTank(enemyTank.getX(), enemyTank.getY(),g,1,enemyTank.getDirection());
+
+        }
 
     }
 
@@ -82,15 +103,34 @@ public class MyPanel extends JPanel implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
+        for (int i = 0; i < enemyTanks.size(); i++) {
+            EnemyTank enemyTank = enemyTanks.get(i);
+            if (e.getKeyCode() == KeyEvent.VK_S){
+                enemyTank.setDirection(1);
+                enemyTank.moveDown();
+            }else if (e.getKeyCode() == KeyEvent.VK_W){
+                enemyTank.setDirection(0);
+                enemyTank.moveUp();
+            }else if (e.getKeyCode() == KeyEvent.VK_A){
+                enemyTank.setDirection(2);
+                enemyTank.moveLeft();
+            }else if (e.getKeyCode() == KeyEvent.VK_D){
+                enemyTank.setDirection(3);
+                enemyTank.moveRight();
+            }
+
+        }
         //为了方便移动坦克,将坐标 x y 变换封装成方法move()
 
         //根据用户按下的不同键，来处理坦克的移动(上下左右的键)
         if (e.getKeyCode() == KeyEvent.VK_W){
             hero.setDirection(0);
             hero.moveUp();
+
         }else if (e.getKeyCode() == KeyEvent.VK_S){
             hero.setDirection(1);
             hero.moveDown();
+
         }else if (e.getKeyCode() == KeyEvent.VK_A){
             hero.setDirection(2);
             hero.moveLeft();

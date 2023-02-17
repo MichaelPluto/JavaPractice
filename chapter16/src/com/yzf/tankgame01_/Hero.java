@@ -1,4 +1,4 @@
-package com.yzf.tankgame_;
+package com.yzf.tankgame01_;
 
 public class Hero extends Tank{
     public Hero(int x, int y) {
