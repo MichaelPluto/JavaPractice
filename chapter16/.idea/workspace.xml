@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/chapter16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter15/src/com/yzf/customgeneric_/CustomGeneric.java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,15 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +129,7 @@
       <updated>1676528167914</updated>
       <workItem from="1676528168961" duration="13870000" />
       <workItem from="1676635308491" duration="5793000" />
+      <workItem from="1676699986297" duration="2205000" />
     </task>
     <servers />
   </component>
@@ -146,6 +145,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="675" y="387" width="570" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1032@0.0.1920.1032" timestamp="1676639537522" />
+    <state x="687" y="211" key="FileChooserDialogImpl" timestamp="1676700325131">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="687" y="211" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1676700325131" />
     <state width="1867" height="119" key="GridCell.Tab.0.bottom" timestamp="1676639627938">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -162,6 +165,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1867" height="119" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676639627938" />
+    <state x="158" y="24" key="new project wizard" timestamp="1676702615548">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="158" y="24" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1676702615548" />
     <state x="539" y="-1" key="search.everywhere.popup" timestamp="1676530376770">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
