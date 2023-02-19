@@ -37,15 +37,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java_projects\idea_java_projects\JavaPractice\charpter17\src\com\yzf\syn_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SellTicket">
-    <configuration name="SellTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.syn_.SellTicket" />
+  <component name="RunManager" selected="Application.HomeWork02">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.syn_.DeadLock" />
       <module name="charpter17" />
       <extension name="coverage">
         <pattern>
@@ -57,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.threadmethod_.ThreadExercise" />
+    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork01" />
       <module name="charpter17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.threadmethod_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.threadmethod_.ThreadMethod02" />
+    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork02" />
       <module name="charpter17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.threadmethod_.*" />
+          <option name="PATTERN" value="com.yzf.homework_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.threadmethod_.ThreadMethod03" />
+    <configuration name="SellTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.syn_.SellTicket" />
       <module name="charpter17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.threadmethod_.*" />
+          <option name="PATTERN" value="com.yzf.syn_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,24 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork02" />
+        <item itemvalue="Application.HomeWork01" />
+        <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.SellTicket" />
         <item itemvalue="Application.ThreadState" />
-        <item itemvalue="Application.ThreadMethod03" />
-        <item itemvalue="Application.ThreadExercise" />
-        <item itemvalue="Application.ThreadMethod02" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676702620984</updated>
       <workItem from="1676702622000" duration="12358000" />
+      <workItem from="1676783770494" duration="7604000" />
     </task>
     <servers />
   </component>
@@ -146,26 +150,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1676710285308">
+    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1676789842221">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676710285308" />
-    <state width="1867" height="219" key="GridCell.Tab.0.bottom" timestamp="1676721632610">
+    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676789842221" />
+    <state width="1867" height="249" key="GridCell.Tab.0.bottom" timestamp="1676791838113">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676721632610" />
-    <state width="1867" height="219" key="GridCell.Tab.0.center" timestamp="1676721632610">
+    <state width="1867" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676791838113" />
+    <state width="1867" height="249" key="GridCell.Tab.0.center" timestamp="1676791838113">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="219" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676721632610" />
-    <state width="1867" height="219" key="GridCell.Tab.0.left" timestamp="1676721632610">
+    <state width="1867" height="249" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676791838113" />
+    <state width="1867" height="249" key="GridCell.Tab.0.left" timestamp="1676791838113">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="219" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676721632610" />
-    <state width="1867" height="219" key="GridCell.Tab.0.right" timestamp="1676721632610">
+    <state width="1867" height="249" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676791838113" />
+    <state width="1867" height="249" key="GridCell.Tab.0.right" timestamp="1676791838113">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="219" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676721632610" />
+    <state width="1867" height="249" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676791838113" />
     <state width="1867" height="327" key="GridCell.Tab.1.bottom" timestamp="1676720103594">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -182,9 +186,13 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1867" height="327" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676720103578" />
-    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1676708663911">
+    <state x="158" y="24" key="new project wizard" timestamp="1676791832389">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1676708663911" />
+    <state x="158" y="24" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1676791832389" />
+    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1676785821873">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="539" y="0" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1676785821873" />
   </component>
 </project>

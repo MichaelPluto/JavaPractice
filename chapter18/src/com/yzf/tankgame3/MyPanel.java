@@ -1,4 +1,4 @@
-package com.yzf.tankgame01_;
+package com.yzf.tankgame3;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,22 +8,25 @@ import java.util.Vector;
 
 //坦克大战的绘图区域
 @SuppressWarnings({"all"})
-public class MyPanel extends JPanel implements KeyListener {
+public class MyPanel extends JPanel implements KeyListener,Runnable{
     //定义我的坦克
     Hero hero = null;
     //定义敌方坦克,因为敌方坦克数量不确定，所以将其放入一个集合中
-    int enemySize = 3;
     Vector<EnemyTank> enemyTanks = new Vector<>();
-
+    int enemySize = 3;
     public MyPanel() {
         hero = new Hero(100, 100);//初始化坦克
-        //hero.setSpeed(4);
+        hero.setSpeed(4);
         //初始化敌方坦克，循环加入敌方坦克入集合中
+
         for (int i = 0; i < enemySize; i++) {
             EnemyTank enemyTank = new EnemyTank(100 * (i + 1), 0);
-            enemyTank.setDirection(1);
+            enemyTank.setDirection(2);
             enemyTanks.add(enemyTank);
-            //tank.setSpeed(i+2);
+//            EnemyTank tank = enemyTanks.get(i);
+            enemyTank.setDirection(1);
+//            tank.setSpeed(i+2);
+
         }
     }
 
@@ -41,6 +44,12 @@ public class MyPanel extends JPanel implements KeyListener {
             EnemyTank enemyTank = enemyTanks.get(i);
             //enemyTank.setDirection(1);
             drawTank(enemyTank.getX(), enemyTank.getY(),g,1,enemyTank.getDirection());
+
+        }
+
+        //绘制子弹
+        if (hero.shot != null && hero.shot.isLive() != false){
+            g.fill3DRect(hero.shot.x, hero.shot.y, 2,2,false);
 
         }
 
@@ -67,6 +76,7 @@ public class MyPanel extends JPanel implements KeyListener {
                 g.fill3DRect(x + 10, y + 10, 20, 40, false);//主体
                 g.fillOval(x + 10, y + 20, 20, 20);//盖子
                 g.drawLine(x + 20, y + 30, x + 20, y);//炮筒
+
                 break;
             case 1: //表示向下
                 g.fill3DRect(x, y, 10, 60, false);//画出坦克左边轮子
@@ -75,19 +85,19 @@ public class MyPanel extends JPanel implements KeyListener {
                 g.fillOval(x + 10, y + 20, 20, 20);//画出圆形盖子
                 g.drawLine(x + 20, y + 30, x + 20, y + 60);//画出炮筒
                 break;
-            case 3: //表示向右
-                g.fill3DRect(x, y, 60, 10, false);//画出坦克上边轮子
-                g.fill3DRect(x, y + 30, 60, 10, false);//画出坦克下边轮子
-                g.fill3DRect(x + 10, y + 10, 40, 20, false);//画出坦克盖子
-                g.fillOval(x + 20, y + 10, 20, 20);//画出圆形盖子
-                g.drawLine(x + 30, y + 20, x + 60, y + 20);//画出炮筒
-                break;
             case 2: //表示向左
                 g.fill3DRect(x, y, 60, 10, false);//画出坦克上边轮子
                 g.fill3DRect(x, y + 30, 60, 10, false);//画出坦克下边轮子
                 g.fill3DRect(x + 10, y + 10, 40, 20, false);//画出坦克盖子
                 g.fillOval(x + 20, y + 10, 20, 20);//画出圆形盖子
                 g.drawLine(x + 30, y + 20, x, y + 20);//画出炮筒
+                break;
+            case 3: //表示向右
+                g.fill3DRect(x, y, 60, 10, false);//画出坦克上边轮子
+                g.fill3DRect(x, y + 30, 60, 10, false);//画出坦克下边轮子
+                g.fill3DRect(x + 10, y + 10, 40, 20, false);//画出坦克盖子
+                g.fillOval(x + 20, y + 10, 20, 20);//画出圆形盖子
+                g.drawLine(x + 30, y + 20, x + 60, y + 20);//画出炮筒
                 break;
 
             default:
@@ -125,11 +135,9 @@ public class MyPanel extends JPanel implements KeyListener {
         if (e.getKeyCode() == KeyEvent.VK_W){
             hero.setDirection(0);
             hero.moveUp();
-
         }else if (e.getKeyCode() == KeyEvent.VK_S){
             hero.setDirection(1);
             hero.moveDown();
-
         }else if (e.getKeyCode() == KeyEvent.VK_A){
             hero.setDirection(2);
             hero.moveLeft();
@@ -137,6 +145,10 @@ public class MyPanel extends JPanel implements KeyListener {
             hero.setDirection(3);
             hero.moveRight();
         }
+        if (e.getKeyCode() == KeyEvent.VK_J){
+            hero.fire();
+        }
+
         //改变值后必须重新绘制
         this.repaint();
     }
@@ -144,5 +156,17 @@ public class MyPanel extends JPanel implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
 
+    }
+
+    @Override
+    public void run() { //每隔 100毫秒，重绘区域
+        while (true){
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            this.repaint();
+        }
     }
 }
