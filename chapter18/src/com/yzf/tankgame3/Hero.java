@@ -29,4 +29,5 @@ public class Hero extends Tank{
         new Thread(shot).start();
 
     }
+
 }

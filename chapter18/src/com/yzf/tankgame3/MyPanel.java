@@ -14,19 +14,20 @@ public class MyPanel extends JPanel implements KeyListener,Runnable{
     //定义敌方坦克,因为敌方坦克数量不确定，所以将其放入一个集合中
     Vector<EnemyTank> enemyTanks = new Vector<>();
     int enemySize = 3;
-    public MyPanel() {
+    public MyPanel() {// 构造器
         hero = new Hero(100, 100);//初始化坦克
         hero.setSpeed(4);
-        //初始化敌方坦克，循环加入敌方坦克入集合中
 
+        //初始化敌方坦克，循环加入敌方坦克入集合中
         for (int i = 0; i < enemySize; i++) {
-            EnemyTank enemyTank = new EnemyTank(100 * (i + 1), 0);
+            EnemyTank enemyTank = new EnemyTank(100 * (i + 1), 0);// 在面板中初始化敌方坦克，并确定位置
             enemyTank.setDirection(2);
             enemyTanks.add(enemyTank);
-//            EnemyTank tank = enemyTanks.get(i);
             enemyTank.setDirection(1);
-//            tank.setSpeed(i+2);
-
+            //每当创建一个坦克对象，就给该对象初始化一个Shot对象，并存入Verctor中
+            Shot shot = new Shot(enemyTank.getX() + 20, enemyTank.getY() + 60, enemyTank.getDirection());
+            enemyTank.shots.add(shot);//存入集合中
+            new Thread(shot).start();// 启动子弹线程
         }
     }
 
@@ -44,12 +45,23 @@ public class MyPanel extends JPanel implements KeyListener,Runnable{
             EnemyTank enemyTank = enemyTanks.get(i);
             //enemyTank.setDirection(1);
             drawTank(enemyTank.getX(), enemyTank.getY(),g,1,enemyTank.getDirection());
-
+            //遍历敌方坦克对象时，绘制所有的子弹，当子弹 isLive == false 时，就从Vector中移除
+            for (int j = 0; j < enemyTank.shots.size(); j++) {
+                //取出子弹
+                Shot shot = enemyTank.shots.get(j);
+                //绘制
+                if (!(shot.isLive())){
+                    enemyTank.shots.remove(j);
+                }
+                g.setColor(Color.cyan);
+                g.fill3DRect(shot.x, shot.y, 3,3,false);
+            }
         }
 
         //绘制子弹
         if (hero.shot != null && hero.shot.isLive() != false){
-            g.fill3DRect(hero.shot.x, hero.shot.y, 2,2,false);
+            g.setColor(Color.PINK);
+            g.fill3DRect(hero.shot.x, hero.shot.y, 3,3,false);
 
         }
 
@@ -159,7 +171,8 @@ public class MyPanel extends JPanel implements KeyListener,Runnable{
     }
 
     @Override
-    public void run() { //每隔 100毫秒，重绘区域
+    //将重绘子弹作为线程单独运行，每隔 100毫秒，重绘区域
+    public void run() {
         while (true){
             try {
                 Thread.sleep(100);

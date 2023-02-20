@@ -1,4 +1,4 @@
-package com.yzf.tankgame3;
+package com.yzf.tankgame4;
 
 public class Shot implements Runnable{
     int x; //子弹x坐标
@@ -6,7 +6,7 @@ public class Shot implements Runnable{
     int direction = 0 ;//子弹方向
     int speed = 4; //子弹速度
 
-    private boolean isLive = true;//判断子弹是否存活
+   boolean isLive = true;//判断子弹是否存活
 
     public Shot(int x, int y, int direction) {
         this.x = x;
@@ -49,7 +49,7 @@ public class Shot implements Runnable{
             }
             System.out.println("子弹 x=" + x + " y=" + y);
             //当子弹移动到面板的边界时,就应该销毁子弹线程
-            if (!(x > 0 && x < 1000 && y > 0 && y < 750)){
+            if (!(x > 0 && x < 1000 && y > 0 && y < 750 && isLive)){
                 System.out.println("子弹被销毁");
                 isLive = false;
                 break;
