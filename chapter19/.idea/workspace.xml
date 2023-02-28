@@ -94,17 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HomeWork03.method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter19" />
       <extension name="coverage">
@@ -143,6 +132,7 @@
       <workItem from="1676962622805" duration="5772000" />
       <workItem from="1677134831267" duration="7554000" />
       <workItem from="1677477514677" duration="14576000" />
+      <workItem from="1677562678756" duration="625000" />
     </task>
     <servers />
   </component>
