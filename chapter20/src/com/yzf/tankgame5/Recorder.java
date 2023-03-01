@@ -13,7 +13,7 @@ public class Recorder {
     private static FileWriter fw = null;
     private static BufferedWriter bw = null;
     private static BufferedReader br = null;
-    private static String recordFile = "d:\\record.txt";
+    private static String recordFile = "src\\record.txt";
     //创建一个成员，指向MyPanel中的 Vector<EnemyTank>
     private static Vector<EnemyTank> enemyTanks = null;
     //定义一个Node 的 Vector，用于保存敌人信息的node
