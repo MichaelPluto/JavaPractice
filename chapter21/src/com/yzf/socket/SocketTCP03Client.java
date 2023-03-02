@@ -14,6 +14,7 @@ public class SocketTCP03Client {
         bufferedWriter.flush();// 使用字符流则需要手动刷新
         System.out.println("已发送");
         socket1.shutdownOutput();
+
         InputStream inputStream = socket1.getInputStream();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         String s = bufferedReader.readLine();
