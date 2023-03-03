@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/yzf/upload" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,32 +39,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzf.homework" />
       <recent name="com.yzf.socket" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter21\src" />
       <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter21\src\com\yzf\upload" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork02SenderB">
-    <configuration name="HomeWork01Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.homework.HomeWork01Client" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.api.Client" />
       <module name="chapter21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork02ReceiverA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.homework.HomeWork02ReceiverA" />
-      <module name="chapter21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzf.homework.*" />
+          <option name="PATTERN" value="com.yzf.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPReceiverA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.udp.UDPReceiverA" />
+    <configuration name="HomeWork03Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework.HomeWork03Client" />
       <module name="chapter21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.udp.*" />
+          <option name="PATTERN" value="com.yzf.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPSenderB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzf.udp.UDPSenderB" />
+    <configuration name="HomeWork03Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.homework.HomeWork03Server" />
       <module name="chapter21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzf.udp.*" />
+          <option name="PATTERN" value="com.yzf.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,24 +100,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.api.Server" />
+      <module name="chapter21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.HomeWork03Client" />
+        <item itemvalue="Application.HomeWork03Server" />
         <item itemvalue="Application.HomeWork02SenderB" />
-        <item itemvalue="Application.HomeWork02ReceiverA" />
-        <item itemvalue="Application.UDPSenderB" />
-        <item itemvalue="Application.UDPReceiverA" />
-        <item itemvalue="Application.HomeWork01Client" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677735749848</updated>
       <workItem from="1677735751160" duration="18800000" />
+      <workItem from="1677822423216" duration="7597000" />
     </task>
     <servers />
   </component>
@@ -148,37 +153,41 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1867" height="213" key="GridCell.Tab.0.bottom" timestamp="1677771113602">
+    <state width="1867" height="213" key="GridCell.Tab.0.bottom" timestamp="1677835238661">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1677771113602" />
-    <state width="1867" height="213" key="GridCell.Tab.0.center" timestamp="1677771113602">
+    <state width="1867" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1677835238661" />
+    <state width="1867" height="213" key="GridCell.Tab.0.center" timestamp="1677835238661">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="213" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1677771113602" />
-    <state width="1867" height="213" key="GridCell.Tab.0.left" timestamp="1677771113602">
+    <state width="1867" height="213" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1677835238661" />
+    <state width="1867" height="213" key="GridCell.Tab.0.left" timestamp="1677835238661">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="213" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1677771113602" />
-    <state width="1867" height="213" key="GridCell.Tab.0.right" timestamp="1677771113602">
+    <state width="1867" height="213" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1677835238661" />
+    <state width="1867" height="213" key="GridCell.Tab.0.right" timestamp="1677835238661">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="213" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1677771113602" />
-    <state width="1867" height="327" key="GridCell.Tab.1.bottom" timestamp="1677771112284">
+    <state width="1867" height="213" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1677835238661" />
+    <state width="1867" height="327" key="GridCell.Tab.1.bottom" timestamp="1677835236612">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1677771112284" />
-    <state width="1867" height="327" key="GridCell.Tab.1.center" timestamp="1677771112284">
+    <state width="1867" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1677835236612" />
+    <state width="1867" height="327" key="GridCell.Tab.1.center" timestamp="1677835236612">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1677771112284" />
-    <state width="1867" height="327" key="GridCell.Tab.1.left" timestamp="1677771112284">
+    <state width="1867" height="327" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1677835236612" />
+    <state width="1867" height="327" key="GridCell.Tab.1.left" timestamp="1677835236612">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1677771112284" />
-    <state width="1867" height="327" key="GridCell.Tab.1.right" timestamp="1677771112284">
+    <state width="1867" height="327" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1677835236612" />
+    <state width="1867" height="327" key="GridCell.Tab.1.right" timestamp="1677835236612">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="327" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1677771112284" />
+    <state width="1867" height="327" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1677835236612" />
+    <state x="532" y="235" key="run.anything.popup" timestamp="1677827752910">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="532" y="235" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1677827752910" />
   </component>
 </project>
