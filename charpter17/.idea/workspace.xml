@@ -47,7 +47,7 @@
   <component name="RunManager" selected="Application.HomeWork02">
     <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzf.syn_.DeadLock" />
-      <module name="charpter17" />
+      <module name="chapter17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzf.syn_.*" />
@@ -60,7 +60,7 @@
     </configuration>
     <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork01" />
-      <module name="charpter17" />
+      <module name="chapter17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzf.homework_.*" />
@@ -73,7 +73,7 @@
     </configuration>
     <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzf.homework_.HomeWork02" />
-      <module name="charpter17" />
+      <module name="chapter17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzf.homework_.*" />
@@ -86,7 +86,7 @@
     </configuration>
     <configuration name="SellTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzf.syn_.SellTicket" />
-      <module name="charpter17" />
+      <module name="chapter17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzf.syn_.*" />
@@ -99,7 +99,7 @@
     </configuration>
     <configuration name="ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzf.state_.ThreadState" />
-      <module name="charpter17" />
+      <module name="chapter17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yzf.state_.*" />
@@ -110,15 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,6 +141,7 @@
       <updated>1676702620984</updated>
       <workItem from="1676702622000" duration="12358000" />
       <workItem from="1676783770494" duration="7604000" />
+      <workItem from="1677938688289" duration="9000" />
     </task>
     <servers />
   </component>
