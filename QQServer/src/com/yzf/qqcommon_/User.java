@@ -13,7 +13,7 @@ public class User implements Serializable {
         this.userId = userId;
         this.passwd = passwd;
     }
-
+    public User(){}
     public String getUserId() {
         return userId;
     }

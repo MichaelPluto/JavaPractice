@@ -1,4 +1,4 @@
-package yzf.qqcommon_;
+package com.yzf.qqcommon_;
 
 /**
  * 表示不同消息类型

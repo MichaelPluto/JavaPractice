@@ -1,4 +1,4 @@
-package yzf.qqcommon_;
+package com.yzf.qqcommon_;
 
 import java.io.Serializable;
 

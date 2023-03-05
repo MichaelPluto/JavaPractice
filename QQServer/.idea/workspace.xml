@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/yzf" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,7 +38,40 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\QQServer\src\com\yzf" />
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\QQServer\src\com\yzf\qqcommon_" />
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\QQServer\src\com\yzf\qqcommon_\qqserver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QQFrame">
+    <configuration name="QQFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.qqframe.QQFrame" />
+      <module name="QQServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.qqframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QQServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.qqserver.server.QQServer" />
+      <module name="QQServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.qqserver.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -49,6 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QQFrame" />
+        <item itemvalue="Application.QQServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,6 +99,10 @@
       <option name="presentableId" value="Default" />
       <updated>1677929975550</updated>
       <workItem from="1677929976603" duration="2011000" />
+      <workItem from="1677995664598" duration="5634000" />
+      <workItem from="1678001403646" duration="34000" />
+      <workItem from="1678001464452" duration="1388000" />
+      <workItem from="1678003024547" duration="2397000" />
     </task>
     <servers />
   </component>
@@ -66,9 +110,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1677930616091">
+    <state x="723" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1677997876766">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1677930616091" />
+    <state x="723" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1677997876766" />
+    <state x="624" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1678000991527">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="624" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1678000991527" />
+    <state width="947" height="755" key="GridCell.Tab.0.bottom" timestamp="1678005451330">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="947" height="755" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1678005451330" />
+    <state width="947" height="755" key="GridCell.Tab.0.center" timestamp="1678005451330">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="947" height="755" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1678005451330" />
+    <state width="947" height="755" key="GridCell.Tab.0.left" timestamp="1678005451330">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="947" height="755" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1678005451330" />
+    <state width="947" height="755" key="GridCell.Tab.0.right" timestamp="1678005451330">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="947" height="755" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1678005451330" />
+    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1677998231893">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1677998231893" />
   </component>
 </project>

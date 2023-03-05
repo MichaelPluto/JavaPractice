@@ -1,4 +1,5 @@
-package yzf.qqclient.service;
+package com.yzf.qqclient.service;
+
 
 import com.yzf.qqcommon_.Message;
 

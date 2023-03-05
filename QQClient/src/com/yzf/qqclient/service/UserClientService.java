@@ -1,8 +1,8 @@
-package yzf.qqclient.service;
+package com.yzf.qqclient.service;
 
-import yzf.qqcommon_.Message;
-import yzf.qqcommon_.MessageType;
-import yzf.qqcommon_.User;
+import com.yzf.qqcommon_.Message;
+import com.yzf.qqcommon_.MessageType;
+import com.yzf.qqcommon_.User;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

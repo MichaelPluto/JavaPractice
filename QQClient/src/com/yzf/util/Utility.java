@@ -1,4 +1,4 @@
-package yzf.util;
+package com.yzf.util;
 
 
 /**

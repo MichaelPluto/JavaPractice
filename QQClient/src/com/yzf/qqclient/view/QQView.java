@@ -1,11 +1,13 @@
-package yzf.qqclient.view;
+package com.yzf.qqclient.view;
 
-import com.yzf.qqclient.service.UserClientService;
+
 import com.yzf.util.Utility;
+import com.yzf.qqclient.service.UserClientService;
 
 public class QQView {
     public static void main(String[] args) {
         new QQView().mainMenu();
+        System.out.println("退出系统");
     }
 
     private boolean loop = true;

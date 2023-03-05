@@ -1,4 +1,4 @@
-package yzf.qqclient.service;
+package com.yzf.qqclient.service;
 
 import java.util.HashMap;
 

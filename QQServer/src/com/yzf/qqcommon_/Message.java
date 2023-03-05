@@ -12,7 +12,7 @@ public class Message implements Serializable {
     private String content;//发送内容
     private String sendTime;//发送时间
     private String mesType;//消息类型
-
+    public Message(){}
     public String getSender() {
         return sender;
     }
