@@ -14,7 +14,7 @@ RENAME TABLE emp TO employee
 ALTER TABLE employee
 	CHARSET utf8
 -- 列名 name 修改为 user_name
-ALTER TABLE employee CHANGE COLUMN NAME username VARCHAR(20) NOT NULL DEFAULT ''
+ALTER TABLE employee CHANGE COLUMN `name` username VARCHAR(20) NOT NULL DEFAULT ''
 DESC employee
 INSERT INTO employee 
 	VALUES(12,'老韩','1980-12-3','2002-10-1 19:02',
