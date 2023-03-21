@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbad11e3-c58b-4e68-be6b-0376febd5778" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NJgMeY6IIOMjafL9WEaPSEuYv7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzf.mhl.dao" />
+      <recent name="com.yzf.mhl.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter26\src" />
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter26\src\com\yzf\mhl\utils" />
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter26\.idea\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MHLView">
+    <configuration name="MHLView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.mhl.view.MHLView" />
+      <module name="chapter26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.mhl.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzf.mhl.utils.Test" />
+      <module name="chapter26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.mhl.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MHLView.view" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzf.mhl.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yzf.mhl.view" />
+      <option name="MAIN_CLASS_NAME" value="com.yzf.mhl.view.MHLView" />
+      <option name="METHOD_NAME" value="view" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MHLView" />
+        <item itemvalue="JUnit.MHLView.view" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbad11e3-c58b-4e68-be6b-0376febd5778" name="Default Changelist" comment="" />
+      <created>1679387555109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679387555109</updated>
+      <workItem from="1679387556141" duration="8549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1679392046193">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="718" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1679392046193" />
+    <state x="687" y="211" key="FileChooserDialogImpl" timestamp="1679387625262">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="687" y="211" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1679387625262" />
+    <state width="1867" height="251" key="GridCell.Tab.0.bottom" timestamp="1679403305135">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1679403305135" />
+    <state width="1867" height="251" key="GridCell.Tab.0.center" timestamp="1679403305135">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="251" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1679403305135" />
+    <state width="1867" height="251" key="GridCell.Tab.0.left" timestamp="1679403305135">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="251" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1679403305135" />
+    <state width="1867" height="251" key="GridCell.Tab.0.right" timestamp="1679403305135">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1867" height="251" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1679403305135" />
+    <state x="329" y="75" width="1262" height="883" key="SettingsEditor" timestamp="1679388070546">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="329" y="75" width="1262" height="883" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1679388070546" />
+    <state x="579" y="385" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1679389922884">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="579" y="385" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1032@0.0.1920.1032" timestamp="1679389922884" />
+  </component>
+</project>
