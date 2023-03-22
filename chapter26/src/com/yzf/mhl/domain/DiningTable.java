@@ -53,6 +53,6 @@ public class DiningTable {
 
     @Override
     public String toString() {
-        return id + "\t\t\t" + state;
+        return id + "\t\t\t" + state +"\t\t\t" + orderName +"\t" + orderTel;
     }
 }
