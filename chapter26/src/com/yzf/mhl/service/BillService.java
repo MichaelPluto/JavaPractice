@@ -3,6 +3,7 @@ package com.yzf.mhl.service;
 
 import com.yzf.mhl.dao.BillDAO;
 import com.yzf.mhl.domain.Bill;
+import com.yzf.mhl.utils.Utility;
 
 import java.util.List;
 import java.util.UUID;
@@ -27,17 +28,32 @@ public class BillService {
         if (update <= 0) {
             return false;
         }
-        return diningTableService.updateDiningTableState(diningTableId, "就餐中");
+        return diningTableService.updateDiningTableState(diningTableId, "未结账");
 
     }
 
     //查询账单
     public void show(int diningTableId) {
-        List<Bill> bills = billDAO.queryMulti("select * from bill where id =?", Bill.class, diningTableId);
+        List<Bill> bills = billDAO.queryMulti("select * from bill where diningTableId =?", Bill.class, diningTableId);
         for (Bill bill : bills) {
             System.out.println(bill);
         }
-
+        
     }
 
+    //查看某个餐桌是否有未结账的账单
+    public boolean hasPay(int diningTableId){
+        Bill bill = billDAO.querySingle("select * from bill where diningTableId =? and state = '未结账' limit 0,1", Bill.class, diningTableId);
+        if (bill == null){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
+    //将账单记录删除
+    public boolean delete(int diningTableId){
+        int update = billDAO.update("delete from bill where diningTableId = ?", diningTableId);
+        return update > 0;
+    }
 }

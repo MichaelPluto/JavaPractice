@@ -56,7 +56,8 @@ public class MHLView {
         String empId = Utility.readString(50);
         System.out.print("请输入密码: ");
         String pwd = Utility.readString(50);
-        Employee emp = employeeService.getEmployeeByIdAbdPwd(empId, pwd);
+        Employee login = employeeService.getEmployeeByIdAbdPwd(empId, pwd);
+        Employee emp = employeeService.getDetail(empId, pwd);
         if (emp != null){
             System.out.println("==========登录成功" + "[" + emp.getName()+"]" + "==========");
             do {
@@ -175,7 +176,7 @@ public class MHLView {
         int menuId = Utility.readInt();
             if (menuId == -1){
                 return;
-            }else if (menuService.getMenuId(orderDiningTableId) == null){
+            }else if (menuService.getMenuId(orderDiningTableId) == null || menuId >8){
                 System.out.println("输入的菜品不存在");
                 return;
             }
@@ -211,22 +212,37 @@ public class MHLView {
     }
 
     public void stopBill(){
+        System.out.println("=============结账服务============\n");
         System.out.print("请输入结账的桌号(-1退出): ");
         int tableId = Utility.readInt();
         if (tableId == -1){
             System.out.println("=============取消结账============\n");
         }else if (diningTableService.getDiningTableById(tableId) == null){
-            System.out.println("输入错误");
+            System.out.println("餐桌不存在");
+            return;
+        }
+        if (!billService.hasPay(tableId)){
+            System.out.println("该桌没有未结账账单");
             return;
         }
         Utility.readConfirmSelection();
+        //结完帐需要把账单信息和餐桌清空
+        if (billService.delete(tableId) && diningTableService.cleanDiningTable(tableId)) {
+            System.out.println("结账成功");
+        }else {
+            System.out.println("结账失败");
+            return;
+        }
         //打印账单，并将座位的状态进行更新
-        System.out.println("结账成功\n");
+
         System.out.println("编号\t\t\t\t账单编号\t\t\t\t\t菜单编号\t数量\t价格\t餐桌编号\t\t账单日期\t\t\t\t餐桌状态");
         diningTableService.updateDiningTableState(tableId,"已结账");
         billService.show(tableId);
 
-        //结完帐需要把该桌信息清空
-        diningTableService.cleanDiningTable(tableId);
+
+
+
+
+
     }
 }

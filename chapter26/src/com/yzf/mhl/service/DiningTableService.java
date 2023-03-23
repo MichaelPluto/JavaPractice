@@ -8,7 +8,6 @@ import java.util.List;
 public class DiningTableService {
 
     private DiningTableDAO diningTableDAO = new DiningTableDAO();
-
     //返回所有餐桌的信息
     public List<DiningTable> list(){
         List<DiningTable> diningTables = diningTableDAO.queryMulti("select * from diningTable", DiningTable.class);
@@ -37,12 +36,13 @@ public class DiningTableService {
 
     //如果点餐成功，对餐桌状态进行更新
     public boolean updateDiningTableState(int id, String state){
-        int update = diningTableDAO.update("update bill set state=? where id=?", state, id);
+        int update = diningTableDAO.update("update bill set state=? where diningTableId=?", state, id);
         return update > 0;
     }
 
     //对餐桌信息进行清空
-    public void cleanDiningTable(int id){
-        diningTableDAO.update("update diningTable set state='空',orderName='',orderTel=''  where id = ?",id);
+    public boolean cleanDiningTable(int id){
+        int update = diningTableDAO.update("update diningTable set state='空',orderName='',orderTel=''  where id = ?", id);
+        return update > 0;
     }
 }

@@ -13,6 +13,12 @@ public class EmployeeService {
 
     // 方法 根据empID 和 pwd 返回一个Employee 对象
     public Employee getEmployeeByIdAbdPwd(String empId, String pwd){
+        return employeeDAO.querySingle("select * from login where empId= ? and loginPwd=md5(?)",
+                Employee.class, empId, pwd);
+    }
+
+    // 方法，根据empID 和 pwd 返回一个具体的Employee 对象
+    public Employee getDetail(String empId, String pwd){
         return employeeDAO.querySingle("select * from employee where empId= ? and pwd=md5(?)",
                 Employee.class, empId, pwd);
     }
