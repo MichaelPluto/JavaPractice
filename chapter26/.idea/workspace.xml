@@ -80,19 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MHLView.view" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter26" />
       <extension name="coverage">
@@ -129,6 +116,7 @@
       <workItem from="1679487387555" duration="808000" />
       <workItem from="1679488227379" duration="11172000" />
       <workItem from="1679550441941" duration="9518000" />
+      <workItem from="1679724346533" duration="627000" />
     </task>
     <servers />
   </component>
@@ -172,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="579" y="385" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1032@0.0.1920.1032" timestamp="1679389922884" />
+    <state x="158" y="24" key="new project wizard" timestamp="1679725121668">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="158" y="24" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1679725121668" />
     <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1679556540087">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
