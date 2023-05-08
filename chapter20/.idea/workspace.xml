@@ -38,15 +38,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter20\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter20\src\com\yzf" />
       <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter20\src" />
       <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter20\src\com\yzf\tankgame6" />
       <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter20\out\production\chapter20" />
       <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter20\src\com\yzf\tankgame5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_projects\idea_java_projects\JavaPractice\chapter20\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TankGame06">
@@ -76,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TankGame06" />
@@ -94,6 +107,8 @@
       <workItem from="1677564543091" duration="17698000" />
       <workItem from="1677659463000" duration="3346000" />
       <workItem from="1677735682331" duration="51000" />
+      <workItem from="1683366957986" duration="46000" />
+      <workItem from="1683367016381" duration="32000" />
     </task>
     <servers />
   </component>
@@ -109,22 +124,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="111" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1677584815622" />
-    <state width="1867" height="147" key="GridCell.Tab.0.bottom" timestamp="1677663091455">
+    <state width="1867" height="382" key="GridCell.Tab.0.bottom" timestamp="1683367048239">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="147" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1677663091455" />
-    <state width="1867" height="147" key="GridCell.Tab.0.center" timestamp="1677663091455">
+    <state width="1867" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1683367048239" />
+    <state width="1867" height="382" key="GridCell.Tab.0.center" timestamp="1683367048239">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="147" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1677663091455" />
-    <state width="1867" height="147" key="GridCell.Tab.0.left" timestamp="1677663091455">
+    <state width="1867" height="382" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1683367048239" />
+    <state width="1867" height="382" key="GridCell.Tab.0.left" timestamp="1683367048239">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="147" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1677663091455" />
-    <state width="1867" height="147" key="GridCell.Tab.0.right" timestamp="1677663091455">
+    <state width="1867" height="382" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1683367048239" />
+    <state width="1867" height="382" key="GridCell.Tab.0.right" timestamp="1683367048239">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1867" height="147" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1677663091455" />
+    <state width="1867" height="382" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1683367048239" />
     <state width="1867" height="155" key="GridCell.Tab.1.bottom" timestamp="1677587333313">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

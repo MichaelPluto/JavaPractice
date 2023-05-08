@@ -52,19 +52,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestDAO.selectGoods">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DBUtils_USE.testDML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter25" />
       <extension name="coverage">
@@ -166,6 +153,7 @@
       <workItem from="1679291813457" duration="17181000" />
       <workItem from="1679377943319" duration="7859000" />
       <workItem from="1679387633167" duration="766000" />
+      <workItem from="1683366889266" duration="6000" />
     </task>
     <servers />
   </component>
